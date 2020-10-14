@@ -46,5 +46,5 @@ Then: User details are authenticated to confirm if user is an admin<br>
 * The source code is also contained within the folder containing this ReadMe with comments on the code thus third-party support can be offered.
 
 ### License
-Moringa School
-Copyright (c)2018 **Gallery by Yours Truly-Donald Kiplagat**
+MIT License
+Copyright (c)2020 
