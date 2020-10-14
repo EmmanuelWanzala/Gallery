@@ -55,9 +55,9 @@ class Location(models.Model):
     def save_location(self):
         self.save()
 
-    # @classmethod
-    # def update_location(cls, id, value):
-    #     cls.objects.filter(id=id).update(location=location)
+    @classmethod
+    def update_location(cls, id, value):
+        cls.objects.filter(id=id).update(location=location)
 
     @classmethod
     def delete_location(cls,location):
