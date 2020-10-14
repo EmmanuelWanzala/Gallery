@@ -1,0 +1,10 @@
+h1
+{
+  color: greenyellow;
+}
+
+image{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,30 @@
+{%extends 'base.html'%}
+{% block content %}
+{{block.super}}
+
+<div class="container">
+
+    <div class="row">
+    {% for image in images %}
+  
+    
+     
+      <div class="col-md-2">
+        <h2 class="text-center"> {{ fotos_item.title }} </h2>
+      </div>
+  
+      <div class="col-md-2">
+        <a href="{% url 'image' image.id %}"> <img src="{{image.gallery_image.url}}" class="img-responsive" alt="Image"></a>
+      </div>
+
+
+    </div>
+  
+
+    {% endfor %}
+  
+  </div>
+
+
+
+{% endblock %}
