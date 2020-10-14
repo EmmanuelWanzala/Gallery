@@ -3,14 +3,14 @@ from django.http import Http404, HttpResponse
 from .models import Image, Location, Category
 from django.core.exceptions import ObjectDoesNotExist
 
-# def welcome(request):
-#     '''
-#     Method to return our images, locations & categories
-#     '''
-#     images = Image.objects.all()
-#     location = Location.objects.all()
-#     categories = Category.get_all_categories()
-#     return render(request, 'welcome.html', {"images":images[::-1], "location":location, "categories":categories})
+def welcome(request):
+    '''
+    Method to return our images, locations & categories
+    '''
+    images = Image.objects.all()
+    location = Location.objects.all()
+    categories = Category.get_all_categories()
+    return render(request, 'welcome.html', {"images":images[::-1], "location":location, "categories":categories})
 
 def search_results(request):
     
