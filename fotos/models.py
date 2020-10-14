@@ -1,13 +1,13 @@
 from django.db import models
 import datetime as dt
 
-class Image(models.Model):
-    image_name = models.CharField(max_length =30)
-    image_description = models.TextField()
-    location = models.ForeignKey('Location', on_delete=models.CASCADE, null=True, blank=True)
-    category = models.ForeignKey('Category', on_delete=models.CASCADE, null=True, blank=True)    
-    pub_date = models.DateTimeField(auto_now_add=True, null=True, blank=True)
-    gallery_image = models.ImageField(upload_to = 'gallery/', null=True)
+# class Image(models.Model):
+#     image_name = models.CharField(max_length =30)
+#     image_description = models.TextField()
+#     location = models.ForeignKey('Location', on_delete=models.CASCADE, null=True, blank=True)
+#     category = models.ForeignKey('Category', on_delete=models.CASCADE, null=True, blank=True)    
+#     pub_date = models.DateTimeField(auto_now_add=True, null=True, blank=True)
+#     gallery_image = models.ImageField(upload_to = 'gallery/', null=True)
 
     class Meta:
         '''
