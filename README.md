@@ -6,7 +6,7 @@ This is a python/django web-app.It was created to display different images in a 
 This web-app allows the user to view teh admin's images while allowing the admin to add the images according with the following attributes: Location and Category.
 
 ## Setup/Installation Requirements
-* Live site can be accessed from the following link https://gallery-donald.herokuapp.com/
+* Live site can be accessed from the following link 
 * Pre-configured Admin details are:
 
 ### Known Bugs
@@ -41,9 +41,8 @@ Then: User details are authenticated to confirm if user is an admin<br>
 * Heroku was used in deploying the live site
 
 
-### Support and contact details
-* Contact me through my email: donald.k.kiplagat@gmail.com
-* The source code is also contained within the folder containing this ReadMe with comments on the code thus third-party support can be offered.
+### Author
+Emmanuel John Wanzala
 
 ### License
 MIT License
