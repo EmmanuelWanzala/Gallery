@@ -27,9 +27,9 @@ class Image(models.Model):
         '''
         self.delete()
 
-    # @classmethod
-    # def update_image(cls, id, value):
-    #     cls.objects.filter(id=id).update(image=value)
+    @classmethod
+    def update_image(cls, id, value):
+        cls.objects.filter(id=id).update(image=value)
 
     @classmethod
     def search_by_category(cls,search_term):
