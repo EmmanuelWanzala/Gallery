@@ -12,6 +12,10 @@ This web-app allows the user to view teh admin's images while allowing the admin
 ### Known Bugs
 Copy button comes out of modal in smaller screen sizes.
 
+## Live link to the project
+
+https://mimigalleryry.herokuapp.com/
+
 ### Behaviour Driven Development
 * The program should return all images on the home page<br>
 Given:All images<br>
